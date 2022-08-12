@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Board</title>
+    <link rel="stylesheet" href="basketball.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="home">
+            <h3 class="title">HOME</h3>
+            <div class="container__wrapper">
+                <div class="score__sheet" id='home_score'>0</div>
+                <button disabled class="score-btn" id="home1">+1</button>
+                <button disabled class="score-btn" id="home2">+2</button>
+                <button disabled class="score-btn" id="home3">+3</button>
+            </div>
+
+        </div>
+
+        <div class="away">
+            <h3 class="title">GUEST</h3>
+            <div container__wrapper>
+                <div class="score__sheet" id="away_score">0</div>
+                <button disabled class="score-btn" id="away1">+1</button>
+                <button disabled class="score-btn" id="away2">+2</button>
+                <button disabled class="score-btn" id="away3">+3</button>
+            </div>
+
+
+        </div>
+        <div class="control">
+            <button id="new_game">NEW GAME</button>
+
+            <button id="end_game">End</button>
+        </div>
+
+
+
+
+
+    </div>
+    <div class="footer">
+        <div class="message">Time:</div>
+        <p class="game__analysis">Winner is:</p>
+        <button class="time">Timer</button>
+
+    </div>
+
+
+
+
+
+
+    <script src="basketball.js"></script>
+
+</body>
+
+</html>

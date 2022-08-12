@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Cursed Timer ULiL;
+    src: url('fonts/Cursed_Timer_ULiL/CursedTimerULiL.ttf');
+}
+
+body {
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container {
+    text-align: center;
+    background: #1B244A;
+    display: flex;
+    width: 800px;
+    /* height: 575px; */
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 70px 85px;
+}
+
+.home {
+    margin-right: 100px;
+}
+
+.title {
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.score__sheet {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 26PX;
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    color: #F94F6D;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    padding: 20px;
+    font-family: Cursed Timer ULiL;
+    border-radius: 5px;
+}
+
+.score__sheet>button {
+    margin-right: 10px;
+    border-radius: 5px;
+    color: #9AABD8;
+    width: 45px;
+    padding: 10px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    font-family: 'Cursed Timer ULiL';
+    background: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+    text-align: center;
+}
+
+#new_game,
+#end_game {
+    padding: 7px 17px;
+    margin-left: 50px;
+    cursor: pointer;
+    border: 3px solid #9AABD8;
+    border-radius: 5px;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    #new_game {
+        margin-top: 20px;
+    }
+}
+
+.footer {
+    background: #9AABD8;
+    padding: 70px 85px;
+    width: 800px;
+    margin: 0 auto;
+    font-size: 36px;
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL';
+    font-weight: bold;
+}
